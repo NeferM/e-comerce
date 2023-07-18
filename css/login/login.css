@@ -1,0 +1,12 @@
+.login {
+    max-width: 420px;
+    width: 90vw;
+    margin: 5rem auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_text {
+    font-weight: 700;
+}

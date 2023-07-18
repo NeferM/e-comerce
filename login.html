@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="./css/header.css"/>
+    <link rel="stylesheet" href="./css/login/login.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="stylesheet" href="./css/rodapie.css"/>
+    <link rel="stylesheet" href="./css/bases.css"/>
+    <title>AluraGeek</title>
+  </head>
+  <body style="font-family: 'Raleway', sans-serif">
+    <header class="head container">
+      <a href="./index.html">
+        <img src="./Images/Logo.png" alt="Logo" class="logo"/>
+      </a>
+      <div class="head_busqueda">
+        <input
+          type="text"
+          name="busqueda"
+          id="busqueda"
+          class="input_busqueda"
+          placeholder="¿Que desea buscar?"
+          required
+        />
+        <a href="#" class="head_icono">
+          <img src="./Images/lupa.png" alt="Icono_busqueda" class="busqueda" />
+        </a>
+      </div>
+    </header>
+    <main>
+        <section class="login">
+            <p class="login_text">Iniciar sesion</p>
+            <div class="input-container">
+                <input
+                  name="email"
+                  id="email"
+                  class="input"
+                  type="email"
+                  placeholder="Escriba su correo electronico"
+                  required
+                />
+                <label class="input-label" for="email">Escriba su correo electronico</label>
+              </div>
+              <div class="input-container">
+                <input
+                  name="pass"
+                  id="pass"
+                  class="input"
+                  type="password"
+                  placeholder="Escriba su contraseña"
+                  required
+                />
+                <label class="input-label" for="pass">Escriba su contraseña</label>
+              </div>
+              <a href="./admin.html">
+                <button class="boton_main">Entrar</button>
+              </a>
+        </section>
+      <footer>
+        <div class="footer_grupo">
+          <img src="./Images/Logo.png" alt="" class="footer_logo" />
+          <div class="ref">
+            <a href="" class="footer_link">Quienes somos</a>
+            <a href="" class="footer_link">Politicas de privacidad</a>
+            <a href="" class="footer_link">Programa de fidelidad</a>
+            <a href="" class="footer_link">Nuestras tiendas</a>
+            <a href="" class="footer_link">Quiero ser franquiciado</a>
+            <a href="" class="footer_link">Anúncie aqui</a>
+          </div>
+        </div>
+        <div class="form">
+          <p class="footer_text">Hable con nosotros</p>
+          <div class="input-container">
+            <input
+              name="name"
+              id="name"
+              class="input"
+              type="text"
+              placeholder="Nombre"
+              required
+            />
+            <label class="input-label" for="name">Nombre</label>
+          </div>
+          <div class="input-container">
+            <input
+              name="mensaje"
+              id="mensaje"
+              class="input"
+              type="text"
+              placeholder="Escribe tu mensaje"
+              required
+            />
+            <label class="input-label" for="mensaje">Escribe tu mensaje</label>
+          </div>
+          <button class="boton_main footer_boton">Enviar mensaje</button>
+        </div>
+      </footer>
+      <section class="rodapie">
+        <p class="rodapie_text">
+          Diseñado por Nefer Medina <br />
+          2023
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

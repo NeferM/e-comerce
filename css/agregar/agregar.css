@@ -1,0 +1,41 @@
+.logo {
+    width: 26vw;
+}
+
+
+.agregar_boton, .input-container {
+    margin-left: 0;
+    width: 100%;
+    max-width: 560px;
+}
+
+.head_icono {
+    width: 30%;
+}
+
+.head_boton {
+    font-size: 0.85rem;
+    padding: 1rem;
+}
+
+.new_product {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.agregar_text {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .head_icono {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
