@@ -1,1 +1,1 @@
-# e-comerce
+Pagina web que simula un e-comerce, el diseño de UI está proporcionado por alura, el cual es utilizado como apoyo para la realización del challenge #2 en la formación front-end en conjunto con oracle ONE
